@@ -1,10 +1,11 @@
-# Documentación del Proyecto
+### Embedded Systems I (LIIE1214)
 
-# HOLA ME LLAMO GIO 
+# Session 1 — GPIO Control
 
 
+***Goal:**   
+***Prediction***
 
-This is my embedded sysstems page
-Bienvenido 👋  
+
 Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
 
