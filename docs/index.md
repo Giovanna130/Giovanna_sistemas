@@ -1,6 +1,6 @@
 # Documentación del Proyecto
 
-HOLA ME LLAMO GIO, como estas?
+# HOLA ME LLAMO GIO 
 
 
 
