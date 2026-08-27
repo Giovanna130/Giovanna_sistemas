@@ -9,17 +9,18 @@ A Raspberry Pi Pico 2W was used, connected to four LEDs via GPIO. Each LED has a
 
 ## Exercise 1. 4-bit binary counter
 
-### What I did
 Using four LEDs, the binary representation from 0 to 15 must be displayed every second.
 
-### Evidence 
+### What I did
+Chat
 
-### Predicted vs measured
+Us
+### Evidence 
+https://www.youtube.com/embed/Q7dsG-ETAew?si=7dKkriQLZ3vq-5zB
 
 ### What went wrong
 
 ### Code
-`` codigo
 ```
  sio_hw->gpio_oe_set = MASK;
    int pos = 0;       // LED inicial
