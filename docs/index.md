@@ -104,3 +104,5 @@ In this exercise, we used binary masks to control several LEDs simultaneously. `
 What went wrong in this exercise was our lack of knowledge, since we failed to study and pay attention in class, so the teacher had to help us, because we tried to extract the codes with the help of AI but it turned out that they were also poorly made.
 
 ### Disclosure
+* We learned and understood the logic behind the codes and how they relate to binary operations such as AND, OR, XOR, etc.
+* We asked ChatGPT, but we realized their code was much longer than the code we created with the professor. Therefore, we need to pay much closer attention in class to avoid making that mistake again.
