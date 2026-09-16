@@ -4,6 +4,18 @@
 
 **Prediction:** _Se espera que al presionar el botón conectado al GPIO, detecte un nivel lógico bajo (0) debido al pull-up externo y encienda el LED. Al soltar el botón, el GPIO tendrá un nivel lógico alto (1) y el LED se apagará._
 
-## Exercise 1.1
+![Circuito 2](recursos/imgs/circuito1.jpeg)
 
-## Set Up 
+## Exercise 1.1 AND
+
+### Set Up 
+
+## Exercise 1.2 OR 
+
+### Set Up 
+
+## Exercise 1.2 XOR
+
+### Set Up 
+
+
