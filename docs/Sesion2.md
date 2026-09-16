@@ -62,6 +62,7 @@ Here we are using an XOR gate, and we are looking at the states of SW0 and SW1. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XBOCYfJYCi4?si=IdaTBs2Bac99E9P6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Code
+
 ```    while (true) {
         // With an (external) pull-up, pressed = 0 (low level)
         if ((sio_hw->gpio_in & SW0_BIT) && !(sio_hw->gpio_in & SW1_BIT )) {
