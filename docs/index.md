@@ -1,7 +1,5 @@
 # Session 1 — GPIO Control
-
 **Goal:** _Turn on the integrated LEDs as required in each exercise using masks and bitwise operations._
-
 **Prediction:** _It is expected that the LEDs can be controlled via GPIO to create different on/off sequences, using binary values ​​and bit operations._
 
 ### Set Up 
