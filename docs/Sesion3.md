@@ -1,4 +1,4 @@
-# Sesion 3 Interrupts 
+# Sesion 3 — Interrupts 
 
 **Goal:** _Configure a GPIO as a digital input to detect the state of a button (HIGH or LOW) and use this information to control an LED._
 
