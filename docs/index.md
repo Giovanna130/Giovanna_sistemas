@@ -7,7 +7,7 @@
 ### Set Up 
 A Raspberry Pi Pico 2W was used, connected to four LEDs via GPIO. Each LED has a current-limiting resistor connected to ground for protection. The four LEDs were used as a 4-bit representation.
 
-![Circuito 1](recursos/imgs/circuito1.jpeg)
+![Circuito 1](recursos/imgs/cicrcuito1.jpeg)
 
 ## Exercise 1. 4-bit binary counter
 Using four LEDs, the binary representation from 0 to 15 must be displayed every second.
@@ -104,5 +104,5 @@ In this exercise, we used binary masks to control several LEDs simultaneously. `
 What went wrong in this exercise was our lack of knowledge, since we failed to study and pay attention in class, so the teacher had to help us, because we tried to extract the codes with the help of AI but it turned out that they were also poorly made.
 
 ### Disclosure
-* We learned and understood the logic behind the codes and how they relate to binary operations such as AND, OR, XOR, etc.
+* We learned and understood the logic behind the codes and how they relate to binary operations.
 * We asked ChatGPT, but we realized their code was much longer than the code we created with the professor. Therefore, we need to pay much closer attention in class to avoid making that mistake again.
