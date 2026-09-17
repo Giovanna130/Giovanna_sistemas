@@ -78,7 +78,7 @@ Here we are using an XOR gate, and we are looking at the states of SW0 and SW1. 
             sio_hw->gpio_clr = LED_XOR_BIT;   // LED Off
             printf("OFF");
         }
-        sleep_ms(100); ```
+        sleep_ms(100);
 ```
 
 ## Exercise 2 
@@ -118,6 +118,6 @@ In this code we use two buttons to control 4 LEDs, one button is used to increas
 }
 ```
 ## What went wrong
-
-
+* The first thing that went wrong was the switch connection, as we connected it the wrong way around. Furthermore, we didn't fully grasp the logic of the gates at first, so we had some trouble figuring out how the code was supposed to work.
 ## Disclosure
+* In this lab exercise, we learned to use AND, OR, and XOR gates with a switch and leds, understanding how the output changes based on different input combinations 
