@@ -53,7 +53,6 @@ static bool timer_callback(repeating_timer_t *rt) {
 ### What I did
 We modified only the TOGGLE_MS value in the program, changing it from 250 ms to 100 ms, 50 ms, and 10 ms. Before running the code in each configuration, I calculated the expected signal frequency and then used the oscilloscope to measure and observe the changes in the waveform.
 
-### Evidence 
 
 ### Code
 ``` 
@@ -74,10 +73,13 @@ int main() {
 ### Disclosure
 1. Does TOGGLE_MS represent the waveform period?
 No, it represents the time between every status update
+
 2. What mathematical relationship connects TOGGLE_MS and the measured signal frequency?
 T = 2 × TOGGLE_MS and f = T/1
+
 3. Does changing TOGGLE_MS change the duty cycle? Why?
 No, it's still 50% because the time in Low and High is the same.
+
 4. At what point does observing the signal with an LED become less useful than observing it with an oscilloscope?
 When the signal changes too fast for us to notice the LED blinking.
 
@@ -86,7 +88,6 @@ When the signal changes too fast for us to notice the LED blinking.
 ### What I did
 We used two pins to observe with the oscilloscope how the duration of an interrupt function affects the timing of a signal. I performed four experiments modifying the duration of the work within the function (WORK_US) and the timer type (USE_NEGATIVE_DELAY).
 
-### Evidence
 
 ### Code
 ``` 
@@ -132,11 +133,20 @@ int main() {
 ```
 ### Disclosure
 
+1. What does the width of the CH2 pulse represent?
+It represents the time that takes to execute the callback.
 
+2. What changes when the repeating-timer delay changes from negative to positive?
+With negative (-100 ms), the next callback is scheduled based on the start of the callback. With positive (+100 ms), the 100 ms start counting after the callback ends.
+
+3. Why should callbacks and ISRs normally be short?
+Because while they run, they use the CPU and can delay other tasks or events.
+
+4. What do you expect if the callback takes longer than the requested interval?
+The callback can take almost all the available time and events might get delayed or not run exactly at the requested interval.
+
+5. Does a longer callback necessarily change the HIGH/LOW duty cycle of CH1? Explain from the measured edges rather than from the source code alone.
+Not necessarily, you have to check it on the oscilloscope. If the HIGH and LOW changes still have roughly the same duration, the duty cycle will stay around 50%. The important thing is to measure the edges of CH1, not just assume it from the code.
 
 ### What went wrong
-
-
-
-### Disclosure
-* 
+* Although nothing went wrong, the practice could be improved by taking several measurements to obtain more accurate results and comparing the theoretical values ​​with the experimental ones to identify possible variations in the signal.
