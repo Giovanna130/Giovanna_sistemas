@@ -1,10 +1,10 @@
 # EXAM 1 
 
-**Goal::** _To develop a code that solves the challenge posed by the professor, using the knowledge learned during the first block of the course_ 
+**Goal:** _To develop a code that solves the challenge posed by the professor, using the knowledge learned during the first block of the course_ 
 
 **Prediction:** _We expect to be able to solve the challenge on time and in the correct manner, applying the tools we have learned_
 
- ## Set Up 
+ ### Set Up 
 We assembled the circuit using a Raspberry Pi Pico 2W, 10 buttons, and a 9-LED matrix. All components were connected to the Raspberry Pi's GPIO pins to control and detect input and output signals.
 
 ![Circuito del examen](recursos/imgs/circuitoexamen.jpeg)
