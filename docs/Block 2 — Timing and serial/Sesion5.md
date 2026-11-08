@@ -6,7 +6,7 @@
 ### Set Up 
 We connect the Raspberry Pi to a buzzer and ten buttons: eight intended for playing different musical notes, and two additional ones for increasing and decreasing the volume.
 
-![Circuito 4](recursos/imgs/circuito5.png)
+<img src="../recursos/imgs/circuito5.jpeg" alt="Diagrama del sistema" width="420">
 
 ### What I did
 First, we programmed the Raspberry Pi to generate various musical notes using PWM, configuring the frequencies corresponding to each note and adding buttons to select them and adjust the volume. Afterward, I physically assembled the circuit, connecting the buzzer, the buttons, and the microcontroller to integrate the components with the code.
