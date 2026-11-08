@@ -1,5 +1,6 @@
 # Sesion 3 — Interrupts 
 **Goal:** _Configure a GPIO as a digital input to detect the state of a button (HIGH or LOW) and use this information to control an LED._
+
 **Prediction:** _It is expected that when the button connected to the GPIO is pressed, it will detect a low logic level (0) due to the external pull-up resistor and turn on the LED. When the button is released, the GPIO will have a high logic level (1) and the LED will turn off._
 
 ## Exercise 1 Roulette 

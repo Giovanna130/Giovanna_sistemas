@@ -1,5 +1,6 @@
 # Sesion 6 — UART
 **Goal:** _Implement serial communication between two computers using two Raspberry Pis, using UART to transmit and receive messages in both directions, understanding the configuration of the TX and RX pins, the transmission speed, and the processing of the received data._
+
 **Prediction:** _It is expected that both computers will be able to send and receive messages correctly via the Raspberry Pi using UART communication._
 
 ### Set Up  

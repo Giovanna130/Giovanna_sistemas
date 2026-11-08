@@ -1,5 +1,6 @@
 # Sesion 7 — ADC
-**Goal:** _Program the Raspberry Pi to read and measure the signals from a light sensor, a temperature sensor, a microphone, and a potentiometer, using the analog-to-digital converter (ADC) to obtain their values.._
+**Goal:** _Program the Raspberry Pi to read and measure the signals from a light sensor, a temperature sensor, a microphone, and a potentiometer, using the analog-to-digital converter (ADC) to obtain their values._
+
 **Prediction:** _The Raspberry Pi is expected to record different numerical values ​​according to variations in light, temperature, sound, and potentiometer position, allowing observation of how each sensor responds to different stimuli._
 
 ## Temperature sensor

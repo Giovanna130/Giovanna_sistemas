@@ -1,11 +1,14 @@
 # Session 5 — PWM
-**Goal:** _ Develop a piano that uses PWM to generate different musical notes and allows for volume control via buttons._
+**Goal:** _Develop a piano that uses PWM to generate different musical notes and allows for volume control via buttons._
+
 **Prediction:** _Each button is expected to produce a different note based on its programmed frequency, and the volume buttons should allow for adjustment of the sound intensity._
 
 ### Set Up 
 We connect the Raspberry Pi to a buzzer and ten buttons: eight intended for playing different musical notes, and two additional ones for increasing and decreasing the volume.
 
-<img src="../recursos/imgs/circuito5.jpeg" alt="Diagrama del sistema" width="420">
+<img src="../recursos/imgs/circuito5.jpeg" alt="Cicuito 5" width="300">
+
+![Diagrama del sistema](../recursos/imgs/circuito5.jpeg)
 
 ### What I did
 First, we programmed the Raspberry Pi to generate various musical notes using PWM, configuring the frequencies corresponding to each note and adding buttons to select them and adjust the volume. Afterward, I physically assembled the circuit, connecting the buzzer, the buttons, and the microcontroller to integrate the components with the code.
