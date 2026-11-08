@@ -9,7 +9,7 @@
 
 The 5 LEDs are connected to 5 GPIO pins configured as outputs, while the 3 buttons are connected to other GPIO pins configured as inputs.
 
-![Circuito 3](recursos/imgs/circuito3.jpeg)
+![Circuito 3](../recursos/imgs/circuito3.jpeg)
 
 ### What I did
 Three buttons were connected to GPIO inputs on the Raspberry Pi Pico 2W to control the LED sequence using interrupts. Pressing a button generates an interrupt that allows a specific action to be executed in real time, without stopping the main program. One button increases the speed of the sequence, another decreases it, and the third momentarily turns on all the LEDs before continuing the sequence.

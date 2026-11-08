@@ -5,7 +5,7 @@
  ### Set Up 
 We assembled the circuit using a Raspberry Pi Pico 2W, 10 buttons, and a 9-LED matrix. All components were connected to the Raspberry Pi's GPIO pins to control and detect input and output signals.
 
-![Circuito del examen](recursos/imgs/circuitoexamen.jpeg)
+![Circuito del examen](../recursos/imgs/circuitoexamen.jpeg)
 
 ### What I did 
 For this exam, we had to solve a puzzle by turning off all the LEDs in a 3x3 matrix using nine buttons. Upon completing the puzzle, the LEDs would flash three times to indicate that we had won. There was also a reset button that changed the position of the LEDs and allowed us to start a new game.

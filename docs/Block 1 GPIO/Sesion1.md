@@ -5,7 +5,7 @@
 ### Set Up 
 A Raspberry Pi Pico 2W was used, connected to four LEDs via GPIO. Each LED has a current-limiting resistor connected to ground for protection. The four LEDs were used as a 4-bit representation.
 
-![Circuito 1](recursos/imgs/cicrcuito1.jpeg)
+![Circuito 1](../recursos/imgs/cicrcuito1.jpeg)
 
 ## Exercise 1. 4-bit binary counter
 Using four LEDs, the binary representation from 0 to 15 must be displayed every second.

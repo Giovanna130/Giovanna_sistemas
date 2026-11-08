@@ -6,8 +6,6 @@
 ### Set Up 
 We connect the Raspberry Pi to a buzzer and ten buttons: eight intended for playing different musical notes, and two additional ones for increasing and decreasing the volume.
 
-<img src="../recursos/imgs/circuito5.jpeg" alt="Cicuito 5" width="300">
-
 ![Diagrama del sistema](../recursos/imgs/circuito5.jpeg)
 
 ### What I did

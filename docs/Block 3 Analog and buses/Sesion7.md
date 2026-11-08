@@ -11,6 +11,8 @@ We connected the temperature sensor to the Raspberry Pi, first its power and gro
 ### What I did
 During the experiment, we connected the temperature sensor to the Raspberry Pi using pin GP26, corresponding to channel ADC0, to read the analog signal it generated. We then programmed the board to initialize the analog-to-digital converter (ADC), select the input channel, and obtain the sensor readings. The program converted the digital values, ranging from 0 to 4095, to a voltage between 0 and 3.3 V and subsequently calculated a temperature from that voltage. Finally, the digital readings were displayed on the computer every 500 milliseconds, allowing us to observe how the signals recorded by the sensor changed.
 
+![Circuito sensor de tempratura](../recursos/imgs/circuito7.png)
+
 ### Code
 ``` 
 #include <stdio.h>
@@ -45,9 +47,15 @@ int main() {
 I reversed the temperature sensor connection; due to this incorrect connection, the sensor burned out and it was not possible to continue working with it.
 
 ## Light Sensor
+
 ### Set Up 
+To perform the light sensor exercise, we connected the sensor to the Raspberry Pi, connecting its power supply to 3.3 V, its ground to the GND pin, and its analog output to the GP26 (ADC0) pin.
+
+![Circuito sensor de tempratura](../recursos/imgs/circuito8.png)
+
 ### What I did
-### Evidence 
+During the temperature sensor experiment, we connected the Raspberry Pi. Then, we used code to initialize the analog-to-digital converter (ADC), select the ADC0 channel corresponding to pin GP26, and read the sensor signals. The code converted the digital readings into a voltage value and calculated a temperature from this, displaying the values ​​on the computer every 500 milliseconds.
+
 ### Code
 ``` 
 #include <stdio.h>
@@ -81,11 +89,18 @@ int main() {
     }
 ``` 
 ### What went wrong
+* Initially, the code recorded incorrect values, but after reviewing and correcting it, we got it working properly and displaying the expected measurements.
 
 ## Potentiometer
-### Set Up 
+
+### Set Up
+We connect its three terminals to the Raspberry Pi, the first terminal to 3.3 V, the second to GND and the central terminal (output) to pin GP26 (ADC0).
+
+![Circuito potenciometro](../recursos/imgs/circuito9.png)
+
 ### What I did
-### Evidence 
+During the experiment, we connected the potentiometer to the Raspberry Pi and ran the code to read the signals using the ADC. As we turned the knob, we observed how the recorded numerical values ​​and the percentage displayed on the computer changed every 500 milliseconds, relating the potentiometer's movement to the voltage variations.
+
 ### Code
 ``` 
 #include <stdio.h>
@@ -104,9 +119,6 @@ int main() {
     // Select the channel
     adc_select_input(ADC_INPUT);
  
-    // Optional: adjust the clock divider if you need to limit Fs
-    // adc_set_clkdiv(div);
- 
     while (true) {
         uint16_t adc = adc_read(); // 12 bits aligned to 0..4095
         float porcentaje = ((adc - 1.0f) * 180.0f) / (3374.0f - 1.0f);
@@ -118,6 +130,7 @@ int main() {
 }
 ``` 
 ### What went wrong
+This exercise went well; we only had some initial doubts about which functions we needed to change.
 
 ## Microphone
 ### Set Up 
