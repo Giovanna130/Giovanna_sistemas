@@ -1,9 +1,8 @@
 # Sesion 7 — ADC
 **Goal:** _Program the Raspberry Pi to read and measure the signals from a light sensor, a temperature sensor, a microphone, and a potentiometer, using the analog-to-digital converter (ADC) to obtain their values.._
-
 **Prediction:** _The Raspberry Pi is expected to record different numerical values ​​according to variations in light, temperature, sound, and potentiometer position, allowing observation of how each sensor responds to different stimuli._
 
-## Sensor de temperatura 
+## Temperature sensor
 
 ### Set Up 
 We connected the temperature sensor to the Raspberry Pi, first its power and ground terminals to the corresponding pins on the board, while the signal output was connected to an analog ADC input so that the Raspberry Pi could read the voltage variations.
@@ -44,7 +43,7 @@ int main() {
 ### What went wrong
 I reversed the temperature sensor connection; due to this incorrect connection, the sensor burned out and it was not possible to continue working with it.
 
-## Sensor de Luz
+## Light Sensor
 ### Set Up 
 ### What I did
 ### Evidence 
@@ -82,7 +81,7 @@ int main() {
 ``` 
 ### What went wrong
 
-## Potenciometro 
+## Potentiometer
 ### Set Up 
 ### What I did
 ### Evidence 
@@ -119,7 +118,7 @@ int main() {
 ``` 
 ### What went wrong
 
-## Microfono
+## Microphone
 ### Set Up 
 ### What I did
 ### Evidence 

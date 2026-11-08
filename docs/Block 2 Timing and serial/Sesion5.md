@@ -1,6 +1,5 @@
 # Session 5 — PWM
 **Goal:** _ Develop a piano that uses PWM to generate different musical notes and allows for volume control via buttons._
-
 **Prediction:** _Each button is expected to produce a different note based on its programmed frequency, and the volume buttons should allow for adjustment of the sound intensity._
 
 ### Set Up 

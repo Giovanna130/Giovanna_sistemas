@@ -1,7 +1,5 @@
 # EXAM 1 
-
 **Goal:** _To develop a code that solves the challenge posed by the professor, using the knowledge learned during the first block of the course_ 
-
 **Prediction:** _We expect to be able to solve the challenge on time and in the correct manner, applying the tools we have learned_
 
  ### Set Up 
