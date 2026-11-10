@@ -29,7 +29,8 @@ theme:
   highlightjs: true 
   palette:
       - scheme: default
-        primary: pink 
+        primary: pink
+        accent: B5728A
 
   features:
     - content.code.copy
