@@ -129,12 +129,19 @@ int main() {
     }
 }
 ``` 
-### What went wrong
-This exercise went well; we only had some initial doubts about which functions we needed to change.
 
 ## Microphone
+
 ### Set Up 
-### What I did
-### Evidence 
+
+To connect the microphone to the Raspberry Pi Pico 2W, first connect the microphone's VCC pin to 3.3V and its GND pin to ground (GND) on the board. Then, connect the microphone's analog output (OUT) to pin GP26 (ADC0) so the Raspberry Pi can read the voltage variations produced by the sound.
+
 ### Code
+```
+
+```
 ### What went wrong
+* We didn't manage our time well, since we didn't finish it during the class.
+
+## Disclosure
+During this practice, I learned to use the analog-to-digital converter (ADC) to read analog signals from different sensors and observe how their values ​​change in response to different stimuli. Although I encountered some difficulties, such as incorrectly connecting the temperature sensor and correcting errors in the code, these experiences helped me understand the importance of verifying connections and carefully reviewing the program, and above all, to better manage my time.
